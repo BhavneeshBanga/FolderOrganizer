@@ -1,0 +1,16 @@
+{
+    "users": [
+
+    {"id": 1, "name": "Amit", "liked_pages": [105, 102, 106, 104]},
+    {"id": 2, "name": "Priya", "liked_pages": [102, 105, 106]},
+    {"id": 3, "name": "Rohan", "liked_pages": [101, 106, 107]},
+    {"id": 4, "name": "Sneha", "liked_pages": [108, 104, 109]},
+    {"id": 5, "name": "John", "liked_pages": [103, 104, 105]},
+    {"id": 6, "name": "Anita", "liked_pages": [101, 102, 109]},
+    {"id": 7, "name": "Mehul", "liked_pages": [105, 106, 108]},
+    {"id": 8, "name": "Kavya", "liked_pages": [101, 102, 103]},
+    {"id": 9, "name": "Nikhil", "liked_pages": [107, 108, 109]},
+    {"id": 10, "name": "Isha", "liked_pages": [104, 105, 106]}
+    ]
+
+}

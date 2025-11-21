@@ -6,15 +6,14 @@ import shutil
 def choose_directory():
     directory_path = filedialog.askdirectory(title="Choose a Directory")
 
-    files = os.listdir(directory_path)
-    list = []
-    for file in files:
-        list.append(file)
+    list = os.listdir(directory_path)
 
     for file_name in list:
-        if(not os.path.exists(file_name.split(".")[1])):
-            os.mkdir(file_name.split(".")[1])
-        shutil.move(f'{directory_path}/{file_name}', file_name.split(".")[1])
+        folder_name = (file_name.split(".")[1])
+        if(not os.path.exists(directory_path + '/' + str(folder_name))):
+            destination_path = directory_path + '/' + str(folder_name)
+            os.mkdir(destination_path)
+        shutil.move(f'{directory_path}/{file_name}', destination_path)
    
 root = tk.Tk()
 # Create a button to trigger the directory dialog

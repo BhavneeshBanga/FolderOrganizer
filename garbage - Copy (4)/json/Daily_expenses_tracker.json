@@ -1,0 +1,37 @@
+[
+    {
+        "amount": 10,
+        "about": "kurkure",
+        "Date": "2025-06-12T18:09:12.594033"
+    },
+    {
+        "amount": 5,
+        "about": "lays",
+        "Date": "2025-06-12T18:10:12.019093"
+    },
+    {
+        "amount": 500,
+        "about": "food",
+        "Date": "2025-06-14T10:50:07.260433"
+    },
+    {
+        "amount": 80,
+        "about": "hair cutting",
+        "Date": "2025-06-14T23:20:25.158842"
+    },
+    {
+        "amount": 20,
+        "about": "lays, kurkure, noodles",
+        "Date": "2025-06-15T12:33:05.987537"
+    },
+    {
+        "amount": 100,
+        "about": "Pizza",
+        "Date": "2025-07-15T20:51:52.612048"
+    },
+    {
+        "amount \ud83d\udcb5": 100,
+        "about \ud83e\udd14": "Party",
+        "Date": "2025-07-15T20:53:45.236430"
+    }
+]
