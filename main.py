@@ -10,8 +10,8 @@ def choose_directory():
 
     for file_name in list:
         folder_name = (file_name.split(".")[1])
-        if(not os.path.exists(directory_path + '/' + str(folder_name))):
-            destination_path = directory_path + '/' + str(folder_name)
+        destination_path = directory_path + '/' + str(folder_name)
+        if(not os.path.exists(destination_path)):
             os.mkdir(destination_path)
         shutil.move(f'{directory_path}/{file_name}', destination_path)
    
